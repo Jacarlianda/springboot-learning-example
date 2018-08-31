@@ -59,12 +59,11 @@ public class ApplicationTests {
     }
 
 
-
-    private City getShanghai(){
+    private City getShanghai() {
         return new City(1L, 10L, "上海", "人称魔都的地方");
     }
 
-    private City getBeijing(){
+    private City getBeijing() {
         return new City(2L, 20L, "北京", "中国帝都");
     }
 }
